@@ -1,0 +1,23 @@
+
+
+.videoDiv{
+    margin-top: 5px;
+    background-color: white;
+    width: auto;
+}
+.carousel-control-next-icon{
+    background-image: url(../images/next.png)!important;
+    opacity:1!important;
+
+}
+
+.carousel-control-prev-icon{
+    background-image: url(../images/prev.png)!important;
+    opacity:1!important;
+
+}
+
+.carousel-indicators li {
+    background-color: red!important;
+}
+

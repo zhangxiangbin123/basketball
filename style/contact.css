@@ -1,0 +1,30 @@
+.googleMap{
+    width: 100%;
+    margin-top: 5px;
+    height: 500px;
+    margin-bottom: 5px;
+}
+
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:300px;
+    }
+    .map-container iframe{
+    left:0;
+    top:0;
+    height:500px;
+    width:100%;
+    position:absolute;
+    }
+
+@media (max-width: 1000px) {
+    
+    .map-container iframe{
+        height:300px;
+    }
+    .googleMap{
+        height: 300px;
+    }
+}

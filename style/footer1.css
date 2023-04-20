@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    background-color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* background-color: red; */
+}
+
+#data_in_footer {
+    background-color: white;
+    padding: 15px;
+    height: auto;
+	width:260px;
+    overflow: hidden;
+    margin:auto;
+}
+
+footer a {
+    color: black;
+}
+
+.fa {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    border: 1px solid color:#333333;
+    border-radius: 25px;
+}
+
+.fa-facebook {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+a:hover {
+    color: red!important;
+}
